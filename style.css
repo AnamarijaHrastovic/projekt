@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+	
+		header {
+		display: block;
+		width: 100%;
+		}
+		
+		body, html {
+			font-family: 'Century', serif;
+			font-size: 20px;
+			height: 100%;
+			margin: 0;
+		}			
+			
+		h1 {
+			font-family: 'Century', serif;
+			font-size: 28px;
+			margin: 5; 
+			margin-block-start: 5;
+			margin-block-end: 5;
+			margin-inline-start: 25px;
+			margin-inline-end: 0px;
+		}
+		
+		p {
+			margin-inline-start: 15px;
+		}
+		
+		.hero-image {
+			background-image: url("slike/licitari.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #800000;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: red;
+		}
+
+		figure {
+			border: thin silver solid;
+			padding: 6px;
+			margin: 0;
+			float: left;
+			margin-inline-start: 15px;
+			margin-inline-end: 15px;
+		
+		}
+
+		figcaption {
+			background-color: white;
+			color: black;
+			font-style: italic;
+			padding: 2px;
+			text-align: center;
+		}
+		
+		footer {
+			background-color: #800000;
+			padding: 1;
+			clear: both;
+		}
+		
+		footer p {
+			color: white;
+			text-align: center;
+			margin: 0.5em;
+		}
+		
+		
+		a {
+			margin-inline-start: 5px;
+			text-decoration: none;
+		}
+		
+		.img {
+			float: left;
+			margin-inline-start: 15px;
+			margin-inline-end: 15px;
+			
+		}
+		.vijesti {
+			color: #CD5C5C;
+			font-size: 20px;	
+		}
+		
+		.p {
+			font-size: 18px;
+		}
+		
+		time {
+			font-size: 14px;
+			font-style: italic;
+		}
+		
+		input, select, textarea {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+
+		input[type=submit] {
+			width: 100%;
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+		.div {
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+		
+		}
+	</style>
+	</head>
+</html>	
