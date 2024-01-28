@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- CSS -->
-		<link rel="stylesheet" href="style.css">
-		<!-- End CSS -->
-		<!-- meta elements -->
-		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<title>O NAMA</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1;">
         	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-        	<meta name="description" content="description">
-        	<meta name="keywords" content="licitari">
+      		<meta name="description" content="description">
+       		 <meta name="keywords" content="licitari">
 		<meta name="author" content="Anamarija Hrastović">
 
-		<!-- favicon meta -->
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
-		<!-- end favicon meta -->
-		<!-- end meta elements -->
 		
-		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Century" rel="stylesheet"> 
-		<!-- End Google Fonts -->
-		<title>O NAMA</title>
+	<style>
+		h3{
+			text-align: center;
+		}
+		h3:hover{
+			text-shadow: 20px 20px red;
+		}
+		video {
+			position: absolute;
+			width: 40%;
+			height: 40%;
+			margin: 50px 0 0 0;
+			object-fit: cover;
+			margin-inline-start: 15px;
+			margin-inline-end: 15px;
+		}
+		.d {
+			width: 58%;
+			margin: 0 0 0 15px;
+			text-align: justify;
+			position: relative;
+			left: 40%;
+		}
+		
+		@media only screen and (max-width: 700px) {
+			video {
+				width:90%;
+			}
+			.d {
+			margin:500px 500px 0 0;
+			position: static;
+			}
+		}
+	</style>	
 	</head>
 <body>
 	<header>
-		<div class="hero-image" style="height: 250px;"></div>
+	</header>
 		<nav>
 			<ul>
 			  <li><a href="index.html">Naslovna</a></li>
@@ -32,65 +60,27 @@
 			  <li><a href="about.html">O nama</a></li>
 			</ul>
 		</nav>
-	</header>
 	<main>
-		<h1>O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N&nbsp;A&nbsp;M&nbsp;A:</h1>
-		<h3 class="img">Kako se izrađuju licitarska <span style="color:#B22222">srca</span>?</h3>
-		<br><br><br><br>
-		<div style="width:48%; float:left; margin-right:2%;" class="img" >
+		<h1>O NAMA</h1>
+		<h3>Kako se izrađuju licitarska <span style="color:#B22222">srca</span>?</h3>
+		<div>
 		<video controls poster="slike/igracke6.jpg">
 		  <source src="video/kako nastaju licitarska srca.mp4" type="video/mp4">
 		  Your browser does not support HTML5 video.
 		</video>
 		</div>
-		<div style="width:48%; float:left;">
-		<table bgcolor="#F8F8FF" align="right" cellpadding="12" cellspacing="30" class="menu">
-			<tr>
-				<th colspan="4" style="color:#4B0082">RECEPT ZA IZRADU LICITARA</th>
-			</tr>
-			<tr>
-				<td align="center">TIJESTO</td>
-				<td align="center">GLAZURA</td>
-				<td align="center">OSLIKAVANJE</td>
-			</tr>
-			<tr>
-				<td>
-					<ol type="I">
-						<li>1 kg šećera</li>
-						<li>6 dl vode</li>
-						<li>3 dag licitarskog kvasca</li>
-						<li>2 kg glatkog brašna</li>
-					</ol>
-				</td>
-				<td>
-					<ol type="I">
-						<li>1/3 kg želatine</li>
-						<li>1 l vode</li>
-						<li>jestive boje</li>
-					</ol>
-				</td>
-				<td>
-					<ol type="I">
-						<li>želatina</li>
-						<li>šećerni sirup</li>
-						<li>krumpirovo brašno</li>
-						<li>jestive boje</li>
-					</ol>
-				</td>
-			</tr>
-		</table>
-		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div class="d">
 		<p>Kao prvo se, uz dodatak licitarskog kvasca, zamijesi tijesto od brašna i vode u kojoj je otopljen šećer. Tijesto se potom razvalja, te se modla šteherima, tj. oblikuje limenim licitarskim kalupima za izrezivanje. Oblikovano tijesto slaže se u lim za pečenje, te se peče u pećnici dok ne dobije blago žućkastu boju.</p>
 		<p>Za sitne licitare, po dva se kolačića međusobno lijepe gustom smjesom brašna i vode, umetnuvši uzicu za vješanje među njih. Potom slijedi tunkanje, tj. umakanje licitara u tekući pripravak obične želatine obojene jestivom bojom u prahu (npr. onom za bojanje pisanica), nakon čega se licitari vješaju kako bi se osušili.</p>
 		<p>U konačnici slijedi ukrašavanje licitara (cifranje), za što se rabi, jestiva smjesa (ajs) razmjerno složene recepture. U svakom slučaju, gotovom se smjesom ajsa napuni papirnati tuljac ili šprica za ukrašavanje torti s odgovarajućim nastavkom (tilnom), te se licitar ukrasi bijelim viticama, šarenim cvjetićima, zelenom „travicom“ i sl.</p>
 		<p>I na kraju, ono što je najbolje kod licitara, ukoliko vam se konačni uradak ne svidi, slobodno ga možete pojesti.</p>
-		<p>Izvor članka:<a href="https://www.licitar.hr/hr/o-licitarima-1" target="_blank">Licitar</a></p>
-		<p>Video izvor:<a href="https://www.youtube.com/watch?v=rUxiSev1wJc" target="_blank">100% poduzetnik</a></p>
 		</div>
+		<p>Izvor članka:<a href="https://www.licitar.hr/hr/o-licitarima-1" target="_blank">Licitar</a></p>
+		<p>Video izvor:<a href="https://www.youtube.com/watch?v=rUxiSev1wJc" target="_blank">100% poduzetnik</a></p>	
 	</main>
 	<footer>
-		<p>Copyright &copy; 2023 Anamarija Hrastović</p>
-	</footer>	
+		<p>Copyright &copy; 2024 Anamarija Hrastović</p>
+	</footer>
+	
 </body>
 </html>
